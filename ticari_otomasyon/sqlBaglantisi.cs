@@ -11,7 +11,7 @@ namespace ticari_otomasyon
     {
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection(@"Data Source=ARIF;Initial Catalog=Dbo TicariOtomasyon;Integrated Security=True");
+            SqlConnection baglan = new SqlConnection(@"Data Source = ARIF; Initial Catalog = Dbo TicariOtomasyon; Integrated Security = True");
             baglan.Open();
             return baglan;
         }
