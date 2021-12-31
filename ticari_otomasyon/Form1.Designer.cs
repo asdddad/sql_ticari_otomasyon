@@ -29,10 +29,9 @@ namespace ticari_otomasyon
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
-            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.Stok = new DevExpress.XtraBars.BarButtonItem();
@@ -46,15 +45,19 @@ namespace ticari_otomasyon
             this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
             // 
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
-            this.ribbonControl1.SearchEditItem,
             this.ribbonControl1.ExpandCollapseItem,
+            this.ribbonControl1.SearchEditItem,
             this.barButtonItem1,
             this.barButtonItem2,
             this.Stok,
@@ -76,31 +79,6 @@ namespace ticari_otomasyon
             this.ribbonControl1.Size = new System.Drawing.Size(1184, 150);
             this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
             // 
-            // ribbonPage1
-            // 
-            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup1});
-            this.ribbonPage1.Name = "ribbonPage1";
-            this.ribbonPage1.Text = "ribbonPage1";
-            // 
-            // ribbonPageGroup1
-            // 
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem2);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem1);
-            this.ribbonPageGroup1.ItemLinks.Add(this.Stok);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem3);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem4);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem5);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem6);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem7);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem8);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem9);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem10);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem11);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem12);
-            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
-            this.ribbonPageGroup1.Text = "ribbonPageGroup1";
-            // 
             // barButtonItem1
             // 
             this.barButtonItem1.Caption = "Ürünler";
@@ -110,6 +88,7 @@ namespace ticari_otomasyon
             this.barButtonItem1.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 11F);
             this.barButtonItem1.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
             // barButtonItem2
             // 
@@ -231,6 +210,35 @@ namespace ticari_otomasyon
             this.barButtonItem12.ItemAppearance.Normal.Options.UseFont = true;
             this.barButtonItem12.Name = "barButtonItem12";
             // 
+            // ribbonPage1
+            // 
+            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup1});
+            this.ribbonPage1.Name = "ribbonPage1";
+            this.ribbonPage1.Text = "ribbonPage1";
+            // 
+            // ribbonPageGroup1
+            // 
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem2);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem1);
+            this.ribbonPageGroup1.ItemLinks.Add(this.Stok);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem3);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem4);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem5);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem6);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem7);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem8);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem9);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem10);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem11);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem12);
+            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
+            this.ribbonPageGroup1.Text = "ribbonPageGroup1";
+            // 
+            // xtraTabbedMdiManager1
+            // 
+            this.xtraTabbedMdiManager1.MdiParent = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -240,6 +248,7 @@ namespace ticari_otomasyon
             this.Name = "Form1";
             this.Text = "Tahoma; 11pt";
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -263,6 +272,7 @@ namespace ticari_otomasyon
         private DevExpress.XtraBars.BarButtonItem barButtonItem10;
         private DevExpress.XtraBars.BarButtonItem barButtonItem11;
         private DevExpress.XtraBars.BarButtonItem barButtonItem12;
+        private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager xtraTabbedMdiManager1;
     }
 }
 
