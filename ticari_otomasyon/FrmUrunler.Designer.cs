@@ -70,10 +70,10 @@ namespace ticari_otomasyon
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(-3, -1);
+            this.gridControl1.Location = new System.Drawing.Point(-1, -1);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(938, 765);
+            this.gridControl1.Size = new System.Drawing.Size(1663, 1062);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -108,9 +108,9 @@ namespace ticari_otomasyon
             this.groupControl1.Controls.Add(this.maskedYil);
             this.groupControl1.Controls.Add(this.txtId);
             this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Location = new System.Drawing.Point(941, -1);
+            this.groupControl1.Location = new System.Drawing.Point(1660, -1);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(244, 765);
+            this.groupControl1.Size = new System.Drawing.Size(244, 1062);
             this.groupControl1.TabIndex = 1;
             // 
             // btnGuncelle
@@ -118,7 +118,7 @@ namespace ticari_otomasyon
             this.btnGuncelle.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.btnGuncelle.Appearance.Options.UseFont = true;
             this.btnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnGuncelle.ImageOptions.Image")));
-            this.btnGuncelle.Location = new System.Drawing.Point(93, 486);
+            this.btnGuncelle.Location = new System.Drawing.Point(85, 446);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(112, 38);
             this.btnGuncelle.TabIndex = 21;
@@ -130,7 +130,7 @@ namespace ticari_otomasyon
             this.btnSil.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.btnSil.Appearance.Options.UseFont = true;
             this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.ImageOptions.Image")));
-            this.btnSil.Location = new System.Drawing.Point(93, 442);
+            this.btnSil.Location = new System.Drawing.Point(85, 402);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(112, 38);
             this.btnSil.TabIndex = 20;
@@ -142,7 +142,7 @@ namespace ticari_otomasyon
             this.btnKaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.btnKaydet.Appearance.Options.UseFont = true;
             this.btnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnKaydet.ImageOptions.Image")));
-            this.btnKaydet.Location = new System.Drawing.Point(93, 398);
+            this.btnKaydet.Location = new System.Drawing.Point(85, 358);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(112, 38);
             this.btnKaydet.TabIndex = 19;
@@ -153,7 +153,7 @@ namespace ticari_otomasyon
             // 
             this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelControl9.Appearance.Options.UseFont = true;
-            this.labelControl9.Location = new System.Drawing.Point(40, 295);
+            this.labelControl9.Location = new System.Drawing.Point(32, 255);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(44, 18);
             this.labelControl9.TabIndex = 18;
@@ -161,7 +161,7 @@ namespace ticari_otomasyon
             // 
             // RchDetay
             // 
-            this.RchDetay.Location = new System.Drawing.Point(93, 296);
+            this.RchDetay.Location = new System.Drawing.Point(85, 256);
             this.RchDetay.Name = "RchDetay";
             this.RchDetay.Size = new System.Drawing.Size(112, 96);
             this.RchDetay.TabIndex = 17;
@@ -169,7 +169,7 @@ namespace ticari_otomasyon
             // 
             // txtSatis
             // 
-            this.txtSatis.Location = new System.Drawing.Point(93, 270);
+            this.txtSatis.Location = new System.Drawing.Point(85, 230);
             this.txtSatis.Name = "txtSatis";
             this.txtSatis.Size = new System.Drawing.Size(112, 20);
             this.txtSatis.TabIndex = 16;
@@ -178,7 +178,7 @@ namespace ticari_otomasyon
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelControl6.Appearance.Options.UseFont = true;
-            this.labelControl6.Location = new System.Drawing.Point(16, 272);
+            this.labelControl6.Location = new System.Drawing.Point(8, 232);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(71, 18);
             this.labelControl6.TabIndex = 15;
@@ -186,7 +186,7 @@ namespace ticari_otomasyon
             // 
             // txtAlis
             // 
-            this.txtAlis.Location = new System.Drawing.Point(93, 244);
+            this.txtAlis.Location = new System.Drawing.Point(85, 204);
             this.txtAlis.Name = "txtAlis";
             this.txtAlis.Size = new System.Drawing.Size(112, 20);
             this.txtAlis.TabIndex = 14;
@@ -195,7 +195,7 @@ namespace ticari_otomasyon
             // 
             this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelControl8.Appearance.Options.UseFont = true;
-            this.labelControl8.Location = new System.Drawing.Point(26, 246);
+            this.labelControl8.Location = new System.Drawing.Point(18, 206);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(61, 18);
             this.labelControl8.TabIndex = 13;
@@ -204,7 +204,7 @@ namespace ticari_otomasyon
             // 
             // txtModel
             // 
-            this.txtModel.Location = new System.Drawing.Point(93, 161);
+            this.txtModel.Location = new System.Drawing.Point(85, 121);
             this.txtModel.Name = "txtModel";
             this.txtModel.Size = new System.Drawing.Size(112, 20);
             this.txtModel.TabIndex = 12;
@@ -213,7 +213,7 @@ namespace ticari_otomasyon
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelControl7.Appearance.Options.UseFont = true;
-            this.labelControl7.Location = new System.Drawing.Point(45, 162);
+            this.labelControl7.Location = new System.Drawing.Point(37, 122);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(43, 18);
             this.labelControl7.TabIndex = 11;
@@ -223,7 +223,7 @@ namespace ticari_otomasyon
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(49, 219);
+            this.labelControl5.Location = new System.Drawing.Point(41, 179);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(35, 18);
             this.labelControl5.TabIndex = 9;
@@ -232,7 +232,7 @@ namespace ticari_otomasyon
             // numericAdet
             // 
             this.numericAdet.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.numericAdet.Location = new System.Drawing.Point(93, 213);
+            this.numericAdet.Location = new System.Drawing.Point(85, 173);
             this.numericAdet.Name = "numericAdet";
             this.numericAdet.Size = new System.Drawing.Size(132, 25);
             this.numericAdet.TabIndex = 8;
@@ -241,7 +241,7 @@ namespace ticari_otomasyon
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(66, 185);
+            this.labelControl4.Location = new System.Drawing.Point(58, 145);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(19, 18);
             this.labelControl4.TabIndex = 7;
@@ -249,7 +249,7 @@ namespace ticari_otomasyon
             // 
             // txtMarka
             // 
-            this.txtMarka.Location = new System.Drawing.Point(93, 135);
+            this.txtMarka.Location = new System.Drawing.Point(85, 95);
             this.txtMarka.Name = "txtMarka";
             this.txtMarka.Size = new System.Drawing.Size(112, 20);
             this.txtMarka.TabIndex = 6;
@@ -258,7 +258,7 @@ namespace ticari_otomasyon
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(39, 137);
+            this.labelControl3.Location = new System.Drawing.Point(31, 97);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(45, 18);
             this.labelControl3.TabIndex = 5;
@@ -267,7 +267,7 @@ namespace ticari_otomasyon
             // 
             // txtAd
             // 
-            this.txtAd.Location = new System.Drawing.Point(93, 109);
+            this.txtAd.Location = new System.Drawing.Point(85, 69);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(112, 20);
             this.txtAd.TabIndex = 4;
@@ -276,7 +276,7 @@ namespace ticari_otomasyon
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(66, 109);
+            this.labelControl2.Location = new System.Drawing.Point(58, 69);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(22, 18);
             this.labelControl2.TabIndex = 3;
@@ -284,7 +284,7 @@ namespace ticari_otomasyon
             // 
             // maskedYil
             // 
-            this.maskedYil.Location = new System.Drawing.Point(93, 186);
+            this.maskedYil.Location = new System.Drawing.Point(85, 146);
             this.maskedYil.Mask = "0000";
             this.maskedYil.Name = "maskedYil";
             this.maskedYil.Size = new System.Drawing.Size(112, 21);
@@ -293,7 +293,7 @@ namespace ticari_otomasyon
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(93, 83);
+            this.txtId.Location = new System.Drawing.Point(85, 43);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(112, 20);
             this.txtId.TabIndex = 1;
@@ -302,7 +302,7 @@ namespace ticari_otomasyon
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(66, 84);
+            this.labelControl1.Location = new System.Drawing.Point(58, 44);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(21, 18);
             this.labelControl1.TabIndex = 0;
@@ -313,11 +313,12 @@ namespace ticari_otomasyon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmUrunler";
             this.Text = "Ürünler";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmUrunler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
