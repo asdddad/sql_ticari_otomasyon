@@ -81,7 +81,7 @@ namespace ticari_otomasyon
             // 
             // barButtonItem1
             // 
-            this.barButtonItem1.Caption = "Ürünler";
+            this.barButtonItem1.Caption = "Ürünleri";
             this.barButtonItem1.Id = 1;
             this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
             this.barButtonItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
@@ -245,6 +245,7 @@ namespace ticari_otomasyon
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 761);
             this.Controls.Add(this.ribbonControl1);
+            this.IsMdiContainer = true;
             this.Name = "Form1";
             this.Text = "Tahoma; 11pt";
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
