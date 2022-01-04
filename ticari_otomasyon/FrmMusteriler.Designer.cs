@@ -29,6 +29,7 @@ namespace ticari_otomasyon
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< Updated upstream
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMusteriler));
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.comboBoxIlce = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -357,10 +358,15 @@ namespace ticari_otomasyon
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
             // 
+=======
+            this.SuspendLayout();
+            // 
+>>>>>>> Stashed changes
             // FrmMusteriler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
@@ -380,11 +386,18 @@ namespace ticari_otomasyon
             ((System.ComponentModel.ISupportInitialize)(this.txtId.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+=======
+            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.Name = "FrmMusteriler";
+            this.Text = "FrmMusteriler";
+            this.Load += new System.EventHandler(this.FrmMusteriler_Load);
+>>>>>>> Stashed changes
             this.ResumeLayout(false);
 
         }
 
         #endregion
+<<<<<<< Updated upstream
 
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.SimpleButton btnGuncelle;
@@ -414,5 +427,7 @@ namespace ticari_otomasyon
         private System.Windows.Forms.MaskedTextBox maskedTelefon2;
         private DevExpress.XtraEditors.LabelControl labelControl11;
         private DevExpress.XtraEditors.LabelControl labelControl10;
+=======
+>>>>>>> Stashed changes
     }
 }

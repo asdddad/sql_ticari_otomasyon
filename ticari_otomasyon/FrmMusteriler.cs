@@ -7,7 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< Updated upstream
 using System.Data.SqlClient;
+=======
+>>>>>>> Stashed changes
 
 namespace ticari_otomasyon
 {
@@ -18,6 +21,7 @@ namespace ticari_otomasyon
             InitializeComponent();
         }
 
+<<<<<<< Updated upstream
         sqlBaglantisi bgl = new sqlBaglantisi();
         void listele()
         {
@@ -120,6 +124,10 @@ namespace ticari_otomasyon
             bgl.baglanti().Close();
             MessageBox.Show("Müşteri bilgileri güncellendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             listele();
+=======
+        private void FrmMusteriler_Load(object sender, EventArgs e)
+        {
+>>>>>>> Stashed changes
 
         }
     }
